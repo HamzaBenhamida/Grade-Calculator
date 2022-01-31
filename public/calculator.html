@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link type="text/css" rel="stylesheet" href="./stylesheets/calculator.css">
+	<script src="./calculator.js" defer></script>
+	<title>Grade Calculator</title>
+</head>
+<body>
+	<div id="white-background">
+
+	<br><br><h2>Grade Calculator</h2><br><br>
+
+	<section>
+
+		<h3>Activities</h3>
+
+		<p>Give grades to the numeric activities:</p>
+		
+		<form>
+			<table id="table">
+				<tr>
+			  		<th>Name</th>
+			  		<th>Short Name</th>
+			 	 	<th>Weight</th>
+			 		<th>Grade</th>
+	 				<th>Percent</th>
+				</tr>
+				<tr class='activities'>
+			  		<td>Activity 1</td>
+					<td>A1</td>
+			 		<td><input type="number" id="weight1"></td>
+			  		<td><input class="grade" id="num1"type="number"><strong> / </strong><input class="grade" id="denum1" type="number"></td>
+			  		<td><div id="percent1"></td>
+				</tr>
+				<tr class='activities'>
+					<td>Activity 2</td>
+					<td>A2</td>
+					<td><input type="number" id="weight2"></td>
+					<td><input class="grade" id="num2"type="number"><strong> / </strong><input class="grade" id="denum2" type="number"></td>
+					<td><div id="percent2"></td>
+				</tr>
+				<tr class='activities'>
+					<td>Activity 3</td>
+					<td>A3</td>
+					<td><input type="number" id="weight3"></td>
+					<td><input class="grade" id="num3"type="number"><strong> / </strong><input class="grade" id="denum3" type="number"></td>
+					<td><div id="percent3"></td>
+				</tr>
+				<tr class='activities'> 
+					<td>Activity 4</td>
+					<td>A4</td>
+					<td><input type="number" id="weight4"></td>
+					<td><input class="grade" id="num4" type="number"><strong> / </strong><input class="grade" id="denum4" type="number"></td>
+					<td><div id="percent4"></td>
+				</tr>
+		      	</table>
+   		</form>
+		
+		   <br><button id="add">ADD ACTIVITY</button><br>
+
+		<p id="result">Result</p><br>
+		<div id="mark"></div>
+
+		<button id="weighted" >WEIGHTED</button>
+		<button id="average" >MEAN</button>
+
+	</section>
+
+	</div>
+
+</body>
+</html>
