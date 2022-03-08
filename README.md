@@ -1,3 +1,3 @@
-# Grade-Calculator-v2
+# Grade-Calculator
 
-runs on heroku: https://hba33-grade-calculator-nodejs.herokuapp.com/calculator.html
+Runs on heroku: https://hba33-grade-calculator-nodejs.herokuapp.com/calculator.html
